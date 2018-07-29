@@ -7,3 +7,10 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: nikita451ci
+  api_key:
+    secure: c5ae74a6-5587-41c5-9708-83335bcd4709
+
